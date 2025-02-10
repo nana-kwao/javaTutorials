@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    //Creating a static method so that we would not to create an instance of the class before
+/*    //Creating a static method so that we would not to create an instance of the class before
     // using the method
 
     //bubbleSortAscending method
@@ -34,7 +34,7 @@ public class Main {
             }
         }
     }
-
+*/
 
     public static void main(String[] args) {
 //        int[] MenAges = {54,13,65,72,35,23,63,11,45,73};
@@ -48,7 +48,7 @@ public class Main {
 
         //Get the array from the user
 
-        Scanner scanner = new Scanner(System.in);
+/*        Scanner scanner = new Scanner(System.in);
 
         //get array size
         System.out.println("Enter the size of the array: ");
@@ -68,6 +68,6 @@ public class Main {
 
         //print array
         System.out.println(Arrays.toString(ages));
-
+*/
     }
 }
