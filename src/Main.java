@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main {
 /*    //Creating a static method so that we would not to create an instance of the class before
@@ -37,18 +36,18 @@ public class Main {
 */
 
     public static void main(String[] args) {
-//        int[] MenAges = {54,13,65,72,35,23,63,11,45,73};
-//        int[] WomenAges = {44,13,75,22,35,23,63,11,55,74};
-//
-//        bubbleSortAscending(MenAges);
-//        bubbleSortDescending(WomenAges);
-//
-//        System.out.println(Arrays.toString(MenAges));
-//        System.out.println(Arrays.toString(WomenAges));
+        int[] MenAges = {54,13,65,72,35,23,63,11,45,73};
+        int[] WomenAges = {44,13,75,22,35,23,63,11,55,74};
+
+/*        bubbleSortAscending(MenAges);
+        bubbleSortDescending(WomenAges);
+
+        System.out.println(Arrays.toString(MenAges));
+        System.out.println(Arrays.toString(WomenAges));
 
         //Get the array from the user
 
-/*        Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
 
         //get array size
         System.out.println("Enter the size of the array: ");
@@ -69,5 +68,15 @@ public class Main {
         //print array
         System.out.println(Arrays.toString(ages));
 */
+
+        //instantiate Sorting class
+        BubbleSortingClass sorting = new BubbleSortingClass();
+
+
+        sorting.ascendingOrder(MenAges);
+        System.out.println(Arrays.toString(MenAges));
+
+        sorting.descendingOrder(WomenAges);
+        System.out.println(Arrays.toString(WomenAges));
     }
 }
